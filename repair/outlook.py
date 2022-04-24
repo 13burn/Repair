@@ -1,5 +1,6 @@
 import os
-#import subprocess
+import subprocess
+from .general import General as gen
 
 class Outlook():
     
