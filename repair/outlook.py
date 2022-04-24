@@ -13,6 +13,7 @@ class Outlook():
         pass
 
     def kill_outlook(self):
+        gen.task_kill("outlook.exe")
         #this one looks for the outlook process and kills it
         pass
 
